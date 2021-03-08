@@ -1,3 +1,5 @@
+@import '../node_modules/@pnotify/core/dist/PNotify.css';
+/* @import '../node_modules/@pnotify/core/dist/Material.css'; */
 html {
   box-sizing: border-box;
 }
@@ -23,6 +25,9 @@ body {
   display: flex;
 }
 
+.country-name {
+  text-align: center;
+}
 .country-info {
   list-style: none;
 }
@@ -31,6 +36,10 @@ body {
   font-weight: 600;
 }
 
-.contry-lengs {
+.country-lengs {
   list-style: symbols();
+}
+
+.country-flag {
+  width: 300px;
 }
