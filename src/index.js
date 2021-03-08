@@ -21,9 +21,8 @@ const countrySearch = debounce(e => {
       if (countries.length > 10) {
         error({
           text: 'Too many matches found. Please enter a more specific query!',
-          // delay: 3000,
+          delay: 3000,
         });
-        // стилі alert;
       } else if (countries.length >= 2 && countries.length <= 10) {
         renderCountries(countries);
       } else {
