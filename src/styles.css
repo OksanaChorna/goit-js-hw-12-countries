@@ -1,6 +1,7 @@
 @import '../node_modules/@pnotify/core/dist/PNotify.css';
-/* @import '../node_modules/@pnotify/core/dist/Material.css'; */
-html {
+@import '../node_modules/@pnotify/core/dist/BrightTheme.css';
+
+*/ html {
   box-sizing: border-box;
 }
 
@@ -21,11 +22,41 @@ body {
   background-image: url('./images/bg-pattern.png');
 }
 
+.get-country {
+  margin-top: 20px;
+  margin-left: 30px;
+  height: 30px;
+  padding: 15px;
+  border: 1px solid rgba(8, 1, 1, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.section-country {
+  margin-top: 20px;
+  margin-left: 32px;
+}
+
+.country-menu {
+  font-size: 24px;
+  font-weight: 400;
+}
+.countries-list {
+  font-size: 24px;
+  font-weight: 600;
+}
+
 .country-card {
   display: flex;
+  justify-content: space-around;
+  width: 800px;
+  margin: auto;
 }
 
 .country-name {
+  font-size: 30px;
+  font-weight: 700;
   text-align: center;
 }
 .country-info {
