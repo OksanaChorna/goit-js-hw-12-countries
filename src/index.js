@@ -13,7 +13,9 @@ const refs = {
 
 const countrySearch = debounce(e => {
   e.preventDefault();
+
   const searchCountry = fetchCountries(e.target.value);
+
   searchCountry
     .then(countries => {
       if (countries.length > 10) {
